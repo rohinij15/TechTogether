@@ -1,0 +1,19 @@
+.recipes{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr 3fr;
+    /* grid-template-rows: 3fr 3fr 3fr 3fr 3fr; */
+    grid-gap: 10px;
+    margin: 101px;
+    width: 50px;
+    height: 50px;
+
+}
+.image{
+    height: 153px;
+    width: 232px;
+}
+#gridDiv{
+    width: fit-content;
+    height: fit-content;
+
+}
