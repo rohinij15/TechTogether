@@ -26,6 +26,9 @@ h3{
 a{
     border: 2px solid black;
     height: 189px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 .title{
     margin-top: 174px;
