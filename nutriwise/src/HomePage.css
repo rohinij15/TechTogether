@@ -10,6 +10,11 @@ align-items: center;
     font-size: 30px;
     text-align: center;
 }
+.logo{
+    width: 150px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
 .b{
     margin-top: 10px;
     background-color:#ede7e3;
@@ -30,7 +35,7 @@ body{
     background-image: linear-gradient(to bottom right, #247B7B, #44A1A0, #FFFFFA);
     
     background-repeat: repeat;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 
     
 }

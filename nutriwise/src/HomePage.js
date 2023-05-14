@@ -2,6 +2,7 @@ import { React, useState} from 'react';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import './HomePage.css';  
+import logo from './n.png'
 import {Link} from 'react-router-dom';
 import name from './profile.js';
 
@@ -19,9 +20,10 @@ function HomePage(){
             <div>
                 <Navbar className = "nav" variant="light" expand="lg">
                     <Container>
-                        <Navbar.Brand href="HomePage.js"><img src = 'n.png'/></Navbar.Brand>
+                        <Navbar.Brand href="HomePage.js"><img className = "logo" src = {logo} /></Navbar.Brand>
                         {/* <Navbar.Brand href = "profile.js">Sign-Up</Navbar.Brand> */}
                         <Link to= '/Profile' className = "sign-up">Sign-Up</Link>
+                        <Link to= '/Practice' className = "sign-up">Recipes</Link>
                     </Container>
                 </Navbar>
 
@@ -40,7 +42,7 @@ function HomePage(){
                     {toggle && (
                         <p className = "gText">Hi! My name is Natasha. I am 22 years old and live in the greater Seattle 
                             Area. I love creating my own meals, but some times struggle with picking out what 
-                            meal, having peanut and dairy allergies. I am also 2 days away from my menstruation so 
+                            meal to make, having peanut and dairy allergies. I am also 2 days away from my menstruation so 
                             would like food that help my PMS symptoms to a minimum. Can you help me make a meal plan?
                         </p>
                 )}
@@ -49,6 +51,7 @@ function HomePage(){
 
         </div>
         </div>
+
         </body>
     )
     
