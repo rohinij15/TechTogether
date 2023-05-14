@@ -10,7 +10,11 @@ input{
     margin-left: 15px;
 }
 
-
+.logo{
+    width: 150px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
 .text{
     display: flex;
     flex-direction: column;

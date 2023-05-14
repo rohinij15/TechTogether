@@ -2,7 +2,8 @@ import { React, useState} from 'react'
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import './profile.css';
-
+import logo from "./n.png"
+import {Link} from 'react-router-dom';
 
 // const [name, setName] = useState("")
 //     const [age, setAge] = useState("")
@@ -28,8 +29,10 @@ function Profile() {
             <div>
                 <Navbar className = "nav" variant="light" expand="lg">
                     <Container>
-                        <Navbar.Brand href="HomePage.js">N</Navbar.Brand>
+                    <Navbar.Brand href="HomePage.js"><img className = "logo" src = {logo} /></Navbar.Brand>
                         {/* <Navbar.Brand href = "profile.js">Sign-Up</Navbar.Brand> */}
+                        <Link to= '/Practice' className = "sign-up">Recipes</Link>
+                        
                         <Navbar.Brand href="Profile.js" className = "sign-up">Sign-Up</Navbar.Brand>
                     </Container>
                 </Navbar>
