@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 3fr 3fr 3fr 3fr 3fr;
     /* grid-template-rows: 3fr 3fr 3fr 3fr 3fr; */
-    grid-gap: 10px;
+    grid-gap: 31px;
     margin: 101px;
     width: 50px;
     height: 50px;
@@ -13,7 +13,26 @@
     width: 232px;
 }
 #gridDiv{
-    width: fit-content;
-    height: fit-content;
+    width: 1447px;
+    height: 716px;
 
+
+}
+h3{
+    margin-left:668px;
+    /* margin-bottom: -36px;
+    margin-top: 50px; */
+}
+a{
+    border: 2px solid black;
+    height: 189px;
+}
+.title{
+    margin-top: 174px;
+    margin-bottom: -71px;
+}
+p{
+    margin-top: 5px;
+ 
+    margin-left: 77px;
 }
